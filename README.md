@@ -24,12 +24,13 @@ This project was created on Code.org's JavaLab platform using the built in Neigh
 
 1. Describe your project.
 
-   - Write your response here...
+   - My project was created on a 32 x 32 grid on code.org of an American Flag. I arranged the red and white stripes, the blue square on the top left with white squares in it representing the stars on the flag. 
 
 2. What are two things about your project that you are proud of?
 
-   - Write your response here...
+   - I am proud that the flag is recognizable because it was a large grid to work on.
+   - I am also proud that I completed the project on time because I had started with a harder idea of creating a Mario but it wasn't working like I had in mind. 
 
 3. Describe something you would improve or do differently if you had an opportunity to change something about your project.
 
-   - Write your response here...
+   - I originally wanted to code Mario on the grid, but for me it was really difficult. If I had more knowledge on how to fix and debug certain parts of the code, I would've been able to create it but I did not have enough knowledge for working on a 32x32 grid. In the future, after learning to code better, I could make something more detailed. 
