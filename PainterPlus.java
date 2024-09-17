@@ -2,48 +2,62 @@ import org.code.neighborhood.*;
 
 public class PainterPlus extends Painter {
 
-  // Turns the Painter to the right
   public void turnRight() {
     turnLeft();
     turnLeft();
     turnLeft();
   }
 
-  // Choice A: Takes all paint from a paint bucket
-  public void takeAllPaint() {
-    while (isOnBucket()) {
-      takePaint();
-    }
-  }
+  /*
+  * Painter takes paint 
+  */
+  
+   public void takeAllPaint() {
+     while(isOnBucket()) {
+       takePaint();
+     }
+   }
+  
 
-  // Choice B: Moves forward while a Painter object can move
+  /*
+  *  Painter moves forward until painter has reached a roadblock
+  */
+  
   public void moveFast() {
-    while (canMove()) {
+    while(canMove()) {
       move();
     }
   }
 
-  // Choice C: Paints and moves while the Painter object has paint
+  
+  /*
+  * Painter paints and moves forward one spaces
+  */
+  
   public void paintToEmpty(String color) {
-    while (hasPaint()) {
+    while(hasPaint()) {
       paint(color);
       move();
     }
   }
 
-  // Choice D: Moves, turns, and paints in a donut shape
+  
+
+  /*
+  *  Painter paints donuts
+  */
+  
   public void paintDonut(String color) {
-    while (hasPaint()) {
-      move();
+    while (hasPaint()){
       turnRight();
       paint(color);
       move();
       paint(color);
+      move();
     }
   }
 
 
 
-  
   
 }
